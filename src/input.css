@@ -32,6 +32,9 @@
             linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
             url("https://i.ibb.co/5WFGn1D/2414gta.webp");
     }
-
+    footer{
+        font-family: "Raleway";
+      }
+    
 
 }
