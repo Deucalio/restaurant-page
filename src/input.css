@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Great+Vibes&family=Italianno&family=Lobster&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Great+Vibes&family=Italianno&family=Lobster&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -32,9 +31,21 @@
             linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
             url("https://i.ibb.co/5WFGn1D/2414gta.webp");
     }
-    footer{
-        font-family: "Raleway";
-      }
-    
 
+    footer {
+        font-family: "Crimson Text";
+    }
+}
+
+@layer components {
+    .btn {
+        @apply cursor-pointer text-3xl text-[#fea742] transition-all duration-700 hover:text-[#b2742e] md:text-4xl
+    }
+
+    .homebtn {
+        @apply cursor-pointer text-4xl text-[#fea742] transition-all duration-700 hover:text-[#b2742e] md:text-5xl
+    }
+    .active{
+        @apply border-b-4 border-[#db8c32ce]
+    }
 }
