@@ -39,13 +39,14 @@
 
 @layer components {
     .btn {
-        @apply cursor-pointer text-3xl text-[#fea742] transition-all duration-700 hover:text-[#b2742e] md:text-4xl
+        @apply cursor-pointer text-3xl text-[#fea742] transition-all duration-700 hover: text-[#b2742e] md:text-4xl
     }
 
     .homebtn {
-        @apply cursor-pointer text-4xl text-[#fea742] transition-all duration-700 hover:text-[#b2742e] md:text-5xl
+        @apply cursor-pointer text-4xl text-[#fea742] transition-all duration-700 hover: text-[#b2742e] md:text-5xl
     }
-    .active{
+
+    .active {
         @apply border-b-4 border-[#db8c32ce]
     }
 }
