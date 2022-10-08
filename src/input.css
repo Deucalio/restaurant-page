@@ -6,13 +6,12 @@
 
 
 @layer base {
-    html {
-        font-family: "Raleway", sans-serif;
-    }
 
     body {
         height: 100vh;
         background-color: black;
+        font-family: "Raleway", sans-serif;
+
     }
 
     nav>ul>li>p {
@@ -33,5 +32,8 @@
             url("https://i.ibb.co/5WFGn1D/2414gta.webp");
     }
 
+    footer {
+        font-family: "Raleway";
+    }
 
 }
