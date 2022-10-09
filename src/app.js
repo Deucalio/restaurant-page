@@ -33,7 +33,7 @@ export function nav() {
     ul.classList.add("flex", "justify-center", "gap-6", "sm:gap-9", "border-0", "border-sky-400", "py-3")
 
     p1.classList.add("btn")
-    p2.classList.add("homebtn")
+    p2.classList.add("btn","homebtn")
     p2.classList.add("active")
     p3.classList.add("btn")
 

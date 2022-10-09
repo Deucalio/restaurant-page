@@ -10,9 +10,9 @@
     }
 
     body {
+        background-color: black;
         display: flex;
         flex-direction: column;
-        background-color: black;
     }
 
     nav>ul>li>p {
@@ -35,6 +35,15 @@
 
     footer {
         font-family: "Crimson Text";
+
+    }
+
+    .the {
+        font-family: "Italianno", 'Courier New', Courier, monospace;
+    }
+
+    .menu {
+        font-family: "Crimson Text"
     }
 }
 
@@ -49,5 +58,13 @@
 
     .active {
         @apply border-b-4 border-[#db8c32ce]
+    }
+
+    .main-head {
+        @apply uppercase menu md:text-4xl tracking-widest text-orange-600 py-2 border-b-4 border-b-orange-800 font-bold my-3 w-fit h-12
+    }
+
+    .dishes {
+        @apply text-amber-500 menu text-2xl tracking-normal
     }
 }
