@@ -4,7 +4,7 @@ export function section() {
     const body = document.querySelector("body");
 
     const section = document.createElement("section")
-    section.classList.add("h-full", "bg-cover", "bg-center")
+    section.classList.add("min-h-screen", "bg-cover", "bg-center")
 
     body.appendChild(section)
 
