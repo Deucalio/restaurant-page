@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Great+Vibes&family=Italianno&family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Great+Vibes&family=Italianno&family=Lobster&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 @layer base {
     html {
@@ -20,51 +19,63 @@
     }
 
     p.ben {
-        font-family: 'Great Vibes', Courier, monospace;
+        font-family: "Great Vibes", Courier, monospace;
     }
 
     p.end {
-        font-family: 'Italianno', Courier, monospace;
+        font-family: "Italianno", Courier, monospace;
     }
 
     section {
-        background-image:
-            linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
             url("https://i.ibb.co/5WFGn1D/2414gta.webp");
     }
 
     footer {
         font-family: "Crimson Text";
-
     }
 
     .the {
-        font-family: "Italianno", 'Courier New', Courier, monospace;
+        font-family: "Italianno", "Courier New", Courier, monospace;
     }
 
     .menu {
-        font-family: "Crimson Text"
+        font-family: "Crimson Text";
+    }
+
+    /* CONTACT */
+    .contact-font {
+        font-family: "Crimson Text";
     }
 }
 
 @layer components {
     .btn {
-        @apply cursor-pointer text-3xl text-[#fea742] transition-[color] duration-700 hover:text-[#b2742e] md:text-4xl
+        @apply cursor-pointer text-3xl text-[#fea742] transition-[color] duration-700 hover:text-[#b2742e] md:text-4xl;
     }
 
     .homebtn {
-        @apply cursor-pointer text-4xl text-[#fea742] transition-[color] duration-700 hover:text-[#b2742e] md:text-5xl
+        @apply cursor-pointer text-4xl text-[#fea742] transition-[color] duration-700 hover:text-[#b2742e] md:text-5xl;
     }
 
     .active {
-        @apply border-b-4 border-[#db8c32ce]
+        @apply border-b-4 border-[#db8c32ce];
     }
 
     .main-head {
-        @apply uppercase menu md:text-4xl tracking-widest text-orange-600 py-2 border-b-4 border-b-orange-800 font-bold my-3 w-fit h-12
+        @apply uppercase menu md:text-4xl tracking-widest text-orange-600 py-2 border-b-4 border-b-orange-800 font-bold my-3 w-fit h-12;
     }
 
     .dishes {
-        @apply text-amber-500 menu text-2xl tracking-normal
+        @apply text-amber-500 menu text-2xl tracking-normal;
+    }
+
+    /* CONTACT */
+    .contactli {
+        @apply w-full sm:w-3/4 col-span-2 mx-auto grid grid-cols-2 items-center px-8 lg:mx-0 lg:w-full lg:px-16;
+    }
+
+    .contactp {
+        @apply text-xl tracking-tighter text-amber-500 md:text-2xl;
     }
 }
