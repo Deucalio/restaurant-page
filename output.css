@@ -769,6 +769,10 @@ footer {
   margin-right: auto;
 }
 
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
 .mt-16{
   margin-top: 4rem;
 }
@@ -779,10 +783,6 @@ footer {
 
 .-mt-5{
   margin-top: -1.25rem;
-}
-
-.mb-6{
-  margin-bottom: 1.5rem;
 }
 
 .mr-5{
@@ -805,16 +805,24 @@ footer {
   height: 2.25rem;
 }
 
-.h-full{
-  height: 100%;
-}
-
 .h-16{
   height: 4rem;
 }
 
+.h-full{
+  height: 100%;
+}
+
 .min-h-screen{
   min-height: 100vh;
+}
+
+.w-4\/5{
+  width: 80%;
+}
+
+.w-12{
+  width: 3rem;
 }
 
 .w-6\/12{
@@ -823,18 +831,6 @@ footer {
 
 .w-24{
   width: 6rem;
-}
-
-.w-4\/5{
-  width: 80%;
-}
-
-.w-5\/6{
-  width: 83.333333%;
-}
-
-.w-12{
-  width: 3rem;
 }
 
 .w-3\/4{
@@ -965,6 +961,11 @@ footer {
   line-height: 1.75rem;
 }
 
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .text-7xl{
   font-size: 4.5rem;
   line-height: 1;
@@ -973,11 +974,6 @@ footer {
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .text-8xl{
@@ -1011,6 +1007,15 @@ footer {
   color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
+.text-\[\#ec6942\]{
+  --tw-text-opacity: 1;
+  color: rgb(236 105 66 / var(--tw-text-opacity));
+}
+
+.text-fuchsia-600\/90{
+  color: rgb(192 38 211 / 0.9);
+}
+
 .text-orange-600{
   --tw-text-opacity: 1;
   color: rgb(234 88 12 / var(--tw-text-opacity));
@@ -1019,15 +1024,6 @@ footer {
 .text-\[\#ec6924\]{
   --tw-text-opacity: 1;
   color: rgb(236 105 36 / var(--tw-text-opacity));
-}
-
-.text-fuchsia-600\/90{
-  color: rgb(192 38 211 / 0.9);
-}
-
-.text-\[\#ec6942\]{
-  --tw-text-opacity: 1;
-  color: rgb(236 105 66 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px){
