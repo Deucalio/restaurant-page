@@ -20,7 +20,7 @@ export function home() {
     p2.classList.add("end", "w-6/12", "mx-auto", "text-4xl",
         "text-center", "text-[#ec6924]")
 
-    p1.textContent = "Benny's"
+    p1.textContent = "Ben"
     p2.textContent = "Passion for food, creation and experience"
 
     div.appendChild(p1)
